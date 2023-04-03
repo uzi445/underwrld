@@ -1,0 +1,48 @@
+:root {
+  --shadow-color: #000000;
+  --shadow-color-light: rgb(196, 196, 196);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*👉font-size: 10px;👈*/
+  /*  10 / 16p = 0.625  */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  background-color: black;
+  /* overflow: hidden; /* Hide scrollbars */
+}
+
+.display-flex {
+  display: flex;
+}
+
+.secondary {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  opacity: 0.7;
+}
+
+.primary {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  height: 75vh;
+}
